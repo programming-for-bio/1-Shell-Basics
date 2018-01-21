@@ -2,10 +2,19 @@
 
 Learning to use a bash terminal and the many unix commands that it makes available is key to becoming an efficient and competent programmer, regardless of which programming language you eventually advance to using.   
 
-## I. The bash terminal
+## I. The bash terminal  
+
+Just like learning any other type of language, learning a programming language requires expanding your vocabulary to know what words exist before you can begin to learn to string them together into sentences, or complex functions. Tutorials are a good place to start, and google is your friend. Our goal in the first part of this tutorial is to learn some of the unix basics (or GNU basics, or bash basics, depending on what we're referencing). If you google 'unix tutorial' you'll find hundreds of good examples, and of course I've provided some examples below as well. But rather than reinvent the wheel, we'll make use a of a very  good existing unix tutorial to learn some of the basics. First, let's get our hands on a 'cheat sheet', another useful term to google. These type of documents usually list very concisely the most commonly used commands for a program. Here's a pretty good one for learning unix tools [https://files.fosswire.com/2007/08/fwunixref.pdf](https://files.fosswire.com/2007/08/fwunixref.pdf). 
+
+
+
+When learning a new complex programming tool or language a 
+
 
 ### (optional) Fun games to further test your skills:  
 https://www.shortcutfoo.com/app/dojos/command-line
+
+
 
 -------------------------------------------------------------------------------------------
 
