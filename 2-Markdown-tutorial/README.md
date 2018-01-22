@@ -25,7 +25,9 @@ Markdown is particularly useful for writing documentation of code files on githu
 The easiest way to learn markdown is get your hands dirty and start writing. There are many online tools where markdown text is instantly rendered side-by-side with the code, which is great for testing. Try out the following page, [https://stackedit.io/app](https://stackedit.io/app) and keep it handy for testing your markdown code while working on your assignments. 
 
 ### A markdown tutorial
-Complete the following tutorial: [https://www.markdowntutorial.com/lesson/1/](https://www.markdowntutorial.com/lesson/1/). 
+Complete the following tutorial: [https://help.github.com/articles/basic-writing-and-formatting-syntax/](https://help.github.com/articles/basic-writing-and-formatting-syntax/) and test yourself here: 
+
+[https://www.markdowntutorial.com/lesson/1/](https://www.markdowntutorial.com/lesson/1/). 
 
 ### Formatting code block with markdown:
 See here for how to format code block using markdown [https://help.github.com/articles/creating-and-highlighting-code-blocks/](https://help.github.com/articles/creating-and-highlighting-code-blocks/). Try it out in the scratchpad above. Notice how if you change the name of the language the "syntax highlighting" can change slightly. Try the 
@@ -41,6 +43,6 @@ y = (3 * 4) + 6
 print(x + y, z);
 ```
 
-### This tutorial is complete
+### You have now completed this tutorial
 Continue to the final tutorial 3-Bash-Advanced to create a markdown file documenting the code you used to solve the problem set. 
 
