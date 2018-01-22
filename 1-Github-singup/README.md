@@ -22,10 +22,12 @@ GitHub starting guide. Complete all steps of this guide to create your first git
 ### Next, create a new repository for your first assignment
 Just like in the GitHub Starting Guide start by creating a new repository and name it 
 `assignment-1`. Initialize the repository with a README file. To complete the homework assignments in [https://github.com/programming-for-bio/1-Shell-Basics](https://github.com/programming-for-bio/1-Shell-Basics) create a new branch, edit the README file according 
-to the instructions in the repository to include your answers, and then merge the finished product back into the Master branch of your repository. 
+to the instructions in the repository to include your answers, and then merge the finished product back into the Master branch of your repository. The directory 2-Markdown-tutorial will teach you more about formatting the README files, and the directory 3-Bash-advanced has 
+the set of questions to answer. 
 
 ### Start learning about git
-The program git integrates seamlessly with github to allow for sharing and editing code collaboratively, and storing countless versions of it. As I said, we'll cover the topic a lot next week, but for now, start learning about using the git command line tool by running this online interactive tutorial [https://try.github.io/levels/1/](https://try.github.io/levels/1/]. 
+The program git integrates seamlessly with github to allow for sharing and editing code collaboratively, and storing countless versions of it. As I said, we'll cover the topic a lot next week, so don't worry too much if you find this part confusing. For now, start learning about using the git command line tool by running this online interactive tutorial
+[https://try.github.io/levels/1/](https://try.github.io/levels/1/). 
 
 
 ### You have now completed this tutorial. 
