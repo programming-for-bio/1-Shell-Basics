@@ -46,9 +46,10 @@ Find how many lines in the data file `test.fastq.gz` start with "TGCAG" and end 
 
 
 ### IV. Summarize sequence data file
-Write a `for-loop` to separate the reads from the file `test.fastq.gz` based on the taxon name in the label, and write the reads to separately named files in the new directory called `sorted_reads/`. This will be tricky because each read in the data file spans four lines, so for each read that you correctly identify you must grab the line with the sequence data below it, as well as the repeat label after that, and the quality information line after that. Try to think of what information is in the file that could allow you to fetch the correct reads and pipe them out of this file and into another. Likely tools include `mkdir`, `grep`
+Write a `for-loop` to separate the reads from the file `test.fastq.gz` based on the taxon name in the label, and write the reads to separately named files in the new directory called `sorted_reads/`. The answer to this question will require more than a single line. See the lecture materials about using variables in for-loops. This will also be tricky because each read in the data file spans four lines (this is a standard genetic sequence file format), so for each read that you correctly identify you must grab the line with the sequence data below it, as well as the repeat label after that, and the quality information line after that. For a hint, see additional options for the `grep` command that can be used to select multiple lines. 
+
 
 
 ### Save your file in your github repo
-Do not forget to save your results in a markdown document in a README file, or other file, in a github repository under your account. We will be sharing these answers with each other in class next week. If you get stuck on the problems above ask for help from your class mates on the gitter page. 
+Do not forget to save your results in a markdown document in a README file, or other file, in a github repository under your account. We will be sharing these answers with each other in class next week. If you get stuck on the problems above ask for help from your class mates on the [gitter chatroom page](https://gitter.im/programming-for-bio/Lobby). 
 
