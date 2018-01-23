@@ -11,7 +11,7 @@ Your assignment is to creat a markdown document called README.md, or assignment.
 Parse the string `X` into a list of elements and then use the `sort` command to sort them in reverse alphanumeric order. 
 `X="apples,bananas,oranges,pancakes"`  
 
-Looking at the `man` page of `sort` I see that it sorts lines of text, so I need to split the elements of X onto separate lines. Therefore, I used the substitution tools `sed` to replace "," with "\n". It also works on files, so I need to pipe the text of X into `sed` using `echo`. Finally, I sorted the substituted text using `sort` with the `-r` option to reverse it. 
+Looking at the `man` page of `sort` (or google for documentation) I see that it sorts lines of text, so I need to split the elements of X onto separate lines. Therefore, I used the substitution tools `sed` to replace "," with "\n". It also works on files, so I need to pipe the text of X into `sed` using `echo`. Finally, I sorted the substituted text using `sort` with the `-r` option to reverse it. 
 
 ```bash
 > echo $x | sed 's/,/\n/g' | sort -r
