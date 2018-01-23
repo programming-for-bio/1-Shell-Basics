@@ -25,7 +25,7 @@ apples
 ```
 
 
-Follow this same format to answer the 4 questions below and save your answers to your markdown document on github. If you get stuck, ask your fellow classmates for help on the shared gitter chatroom page. 
+Follow this same format to answer the 4 questions below and save your answers to your markdown document on github. If you get stuck, ask your fellow classmates for help on the shared [gitter chatroom page](https://gitter.im/programming-for-bio/Lobby). 
 
 
 ### I. Get the data files
