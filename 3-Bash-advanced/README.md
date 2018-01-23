@@ -8,12 +8,10 @@ To answer the following problem sets look back at the slides from lecture 1, fee
 Your assignment is to creat a markdown document called README.md, or assignment.md, or whatever you wish to call it, and to save it in a repository in your github account. In this file you should document your answers to all of the problems below in the following format using markdown. Use a `header` for each question, then use plain text to copy the question, then use plain text to write your answer and link to any online resources that helped you, and finally include a code-block for your code and a code-block with your copied answer. Use an online markdown live editor to test your code, or the "preview" button on github to make sure that it is formatted to look clean and easily readable. An example is below:
 
 ### Example Question and Answer
-Use the `cut` command to parse the following string `X` into a list of elements and then use the `sort` command to sort them in reverse alphanumeric order. 
-`X="apples,bananas,oranges,pancakes"`
-
+Parse the string `X` into a list of elements and then use the `sort` command to sort them in reverse alphanumeric order. 
+`X="apples,bananas,oranges,pancakes"`  
 
 Looking at the `man` page of `sort` I see that it sorts lines of text, so I need to split the elements of X onto separate lines. Therefore, I used the substitution tools `sed` to replace "," with "\n". It also works on files, so I need to pipe the text of X into `sed` using `echo`. Finally, I sorted the substituted text using `sort` with the `-r` option to reverse it. 
-
 
 ```bash
 > echo $x | sed 's/,/\n/g' | sort -r
