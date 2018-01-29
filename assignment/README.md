@@ -35,6 +35,6 @@ git remote add upstream https://github.com/programming-for-bio/1-Shell-Basics.gi
 
 ## pull commits (fetch & merge)
 git fetch upstream
-git merge upstream master
+git merge
 ```
 
