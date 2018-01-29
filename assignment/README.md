@@ -2,7 +2,6 @@
 
 ### Instructions for submitting your homework
 
-
 ```bash
 
 ## fork the upstream repo on GitHub
@@ -25,7 +24,6 @@ git push
 
 ## make pull request to merge origin/master to upstream/master
 <go to your origin repo and click 'New pull request' button>
-
 ```
 
 ### Later, pull other's assignments into your repo
@@ -37,4 +35,3 @@ git remote add upstream https://github.com/programming-for-bio/1-Shell-Basics.gi
 git fetch upstream
 git merge
 ```
-
