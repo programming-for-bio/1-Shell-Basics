@@ -5,11 +5,11 @@
 
 ```bash
 
-## fork this upstream repo on GitHub
-<click on the fork button on-line>
+## fork the upstream repo on GitHub
+<click fork button at https://github.com/programming-for-bio/1-Shell-Basics>
 
 ## clone your copy of it
-git clone https://github.com/...
+git clone https://github.com/<you>/1-Shell-Basics.git
 
 ## copy and RENAME your markdown assignment  
 cp <path-to-assignment> ./<myname>.txt
@@ -27,3 +27,13 @@ git push
 <go to your origin repo and click 'New pull request' button>
 
 ```
+
+### Later, pull to other's assignments in your repo
+```bash
+## add upstream remote
+git remote add upstream https://github.com/programming-for-bio/1-Shell-Basics.git
+
+## pull commits (fetch & merge)
+git pull
+```
+
