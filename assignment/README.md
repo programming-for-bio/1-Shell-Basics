@@ -1,5 +1,8 @@
 
 
+### Instructions for submitting your homework
+
+
 ```bash
 
 ## fork this upstream repo on GitHub
@@ -8,19 +11,19 @@
 ## clone your copy of it
 git clone https://github.com/...
 
-## copy markdown assignment here and rename 
+## copy and RENAME your markdown assignment  
 cp <path-to-assignment> ./<myname>.txt
 
 ## add your markdown assignment file
 git add ./<myname>.txt
 
 ## commit it
-git commit -m "added assignment 1 file"
+git commit -m "added assignment-1 file"
 
 ## push to origin
-git push origin master
+git push 
 
 ## make pull request to merge origin/master to upstream/master
-<go to the upstream repo and click on pull request button>
+<go to your origin repo and click 'New pull request' button>
 
 ```
