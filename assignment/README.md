@@ -28,12 +28,13 @@ git push
 
 ```
 
-### Later, pull to other's assignments in your repo
+### Later, pull other's assignments into your repo
 ```bash
 ## add upstream remote
 git remote add upstream https://github.com/programming-for-bio/1-Shell-Basics.git
 
 ## pull commits (fetch & merge)
-git pull
+git fetch upstream
+git merge upstream master
 ```
 
