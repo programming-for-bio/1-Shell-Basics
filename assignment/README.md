@@ -11,10 +11,10 @@
 git clone https://github.com/<you>/1-Shell-Basics.git
 
 ## copy and RENAME your markdown assignment  
-cp <path-to-assignment> ./homework/<myname>.txt
+cp <path-to-assignment> ./assignment/<myname>.txt
 
 ## add your markdown assignment file
-git add homework/<myname>.md
+git add assignment/<myname>.md
 
 ## commit it
 git commit -m "added assignment-1 file"
